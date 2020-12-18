@@ -1,0 +1,26 @@
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+body {
+    background-color: #ffffff;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+    @keyframes colorchange{
+        0%{background-color: red;}
+        10%{background-color: white;}
+        20%{background-color: pink;}
+        30%{background-color: red;}
+        40%{background-color: white;}
+        50%{background-color: pink;}
+        60%{background-color: red;}
+        70%{background-color: white;}
+        80%{background-color: pink;}
+        90%{background-color: red;}
+        100%{background-color: white:}
+}
